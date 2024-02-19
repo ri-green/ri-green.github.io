@@ -20,12 +20,13 @@
         p {
             color: #3d3d3d;
         }
+
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 50%;  
         }
+
         h1 {
             text-align: center;
             font-size: 2.5vw;
@@ -93,13 +94,33 @@
             text-align: left;
             line-height: 3em;
         }
+
+        .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
     </style>
 </head>
 
 <body>
     <h1>TR Solo with the TAZ LOV3 & the Petzl MICRO TRAXION
     </h1>
-    <img src="https://live.staticflickr.com/7011/6664679685_374fb84335_z.jpg" alt="">
+    <img src="https://live.staticflickr.com/65535/53538425361_26fea26afc_z.jpg" width="50% alt="View of Mount Index"/>
     
     <div id="intro" class="mainbody">
         <p>Top rope (“TR”) soloing is an advanced style of climbing in which a climber uses ascending devices on a fixed rope to climb a pitch without the need for a belayer to manage slack. There are many tried-and-true systems that will allow you to top rope solo safely. In this guide, you will learn how to use the TAZ LOV3 as your main ascender and descender with a Petzl Micro Traxion as a back-up. 
@@ -193,9 +214,9 @@
 
     <li>Loop bungee cord around back of neck to <a href="#taught">keep the LOV3 taught.</a></li>
 
-    <li><a href="#mt-fail">Ensure that MT is in engaged in progress-capture mode before ascending!</a></li>
+    <li><a href="#mt-fail">Ensure that MT is in engaged in progress-capture mode before ascending.</a></li>
     
-    <li>Climb on.</li>
+    <li>Climb on!</li>
 
     <li><a href="#descend">Descend</a>.</li>
 </ol>
@@ -215,8 +236,6 @@
 
     Attach a small locking carabiner to each end of an 11cm dogbone. Open the Micro Traxion and insert rope as show below. Close the device and connect to locking carabiner on one end of the dogbone. Ensure carabiner is locked
 
-    [IMAGE OF ROPE PROPERLY ORIENTED IN OPEN MT with directional arrows]
-    [IMAGE OF CLOSED MT WITH CARABINER ON DOGBONE]
 
     Safety note about MT
 
@@ -264,7 +283,16 @@
     The older version of the TAZ LOV3 has a plastic cleat that is involved in initiating the locking mechanism. On rare occasions this tab can get stuck open, preventing the device from stopping a fall as quickly (or at all). Some people file this tab slightly to prevent this. 
     <br><br>
     This issue has been eliminated in the newer LOV3. To test which version you have, push the plastic cleat on your device into the open position and see if you can get it to stick. If you cannot get it to stick, you likely have the newer version, so this will be less of a concern.
-        <img src="https://imgur.com/a/JkSjt3B.gif" size="40%">
+    
+    <div class="row">
+        <div class="column">
+            <img src="https://live.staticflickr.com/65535/53538859065_b0dae3c998_z.jpg" width="50%" alt="TAZ Tab 1"/>
+        </div>
+        <div class="column">
+            <img src="https://live.staticflickr.com/65535/53537558552_2fe85b4f23_z.jpg" width="50%"" alt="TAZ Tab 2"/>
+        </div>
+      </div>
+
     <h2>Additional Warnings and considerations</h2>
     <ul class="bullet">
     <li>Long hair, loose clothes, slings and other dangling accessories can get sucked into devices and prevent them from catching you. Keep long hair tied back and completely out of the way (even a long ponytail can get caught) and wear a fitted top with no dangling accessories that could get caught in your devices.  
@@ -276,7 +304,7 @@
     <li>As always, be considerate of other climbers and share the crag. 
         </li>
     </ul>
-    <a href="#toc" class="return">Return to Top</a>
+    
     </div>
 
     <div id="gear" class="mainbody">
