@@ -10,21 +10,18 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             color: black;
             line-height: 2em;
+            margin-left: 18%;
+            margin-right:18%;
+            text-align: justify;
         }
 
         div {
-            margin-left: 18%;
-            margin-right:18%;
+            
         }
+        
         
         p {
             color: #3d3d3d;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         h1 {
@@ -45,7 +42,7 @@
             font-weight:lighter;
         }
 
-        .toc {
+        .border {
             border: 2px solid black;
             background: #ffffff;
             text-align: center;
@@ -53,18 +50,14 @@
 
         ul {
             text-align: left;
-            list-style-type: none;
+            list-style-type: circle;
             line-height: 3em;
         }
 
-        ul.bullet {
-            text-align: left;
-            list-style-type: circle;
-            line-height: 2em;
-        }
 
         li.indent {
             padding-inline-start: 2em;
+            list-style-type: none;
         }
 
         .warning-container {
@@ -80,7 +73,7 @@
             line-height: 1.5em;
         }
       
-        .mainbody {
+        .intro {
             padding: 20px;
             text-align: justify;
         }
@@ -95,38 +88,59 @@
             line-height: 3em;
         }
 
-        .column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+        .tazimg {
+            display: flex;
+            }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
+        .tazimg img {
+            width: 50%;
+            padding: 10px;
+        }
+
+        .placeholder {
+            color: hotpink;
+            font-weight: bolder;
+        }
     </style>
 </head>
 
 <body>
     <h1>TR Solo with the TAZ LOV3 & the Petzl MICRO TRAXION
     </h1>
-    <img src="https://live.staticflickr.com/65535/53538425361_26fea26afc_z.jpg" width="50% alt="View of Mount Index"/>
+    <img src="https://live.staticflickr.com/65535/53538425361_26fea26afc_z.jpg" width="75% alt="View of Mount Index class="center"/>
     
-    <div id="intro" class="mainbody">
-        <p>Top rope (“TR”) soloing is an advanced style of climbing in which a climber uses ascending devices on a fixed rope to climb a pitch without the need for a belayer to manage slack. There are many tried-and-true systems that will allow you to top rope solo safely. In this guide, you will learn how to use the TAZ LOV3 as your main ascender and descender with a Petzl Micro Traxion as a back-up. 
+    <div id="intro" class="intro">
+        <h2>Introduction</h2>
+        <p>Top rope (“TR”) soloing is an advanced style of climbing in which a climber uses ascending devices on a fixed rope to climb a pitch without the need for a belayer to manage slack. There are many tried-and-true systems that work for TR soloing, but many are lacking in terms of safety or convenience. Many require a complex transition into rappel mode, which can be frustrating and open up more opportunities for error. It is also common to see systems that rely on a single device with no back-up, other than perhaps some knots, should this device fail. In this guide, you will learn how to use the <a href="https://taz3d.fr/product/lov3/?lang=en">TAZ LOV3</a> as your main ascender and descender with a <a href="https://www.petzl.com/US/en/sport/pulleys/micro-traxion">Petzl Micro Traxion</a> as a back-up. These devices make climbing and lowering a breeze, and the non-intrusive back-up and lack of a complex transition to lowering mode make it safer than many others out there. 
+            <!-- Neither the TAZ LOV3 nor the Micro Traxion were designed for use in top rope soloing. Use at your discretion. -->
             </p>
     </div>
-    <div id="toc" class="toc">
+
+    <div class="warning-container">
+
+   <!-- <img src="https://www.freeiconspng.com/uploads/skull-and-crossbones-png-3.png" alt="Skull and Crossbones"/> -->
+     <h2>Warning! This is advanced stuff.</h2>
+
+    <div class="warning-text">
+        TR soloing is dangerous and should only be attempted by advanced climbers with a strong background in roped climbing and self-rescue.
+        <br><br>
+        Unanticipated user error and mechanical failures beyond the scope of this guide are likely and can result in serious injury or death.
+        <br><br>
+        Consult a guide or other authorized instructor before attempting.
+        </div>
+        <br><br>
+        <b>Remember: You are the only person who can keep yourself safe when you top rope solo.</b>
+        
+    
+    </div> 
+    <br><br>
+    <div id="toc" class="border">
     <h2>Table of Contents</h2> 
     <ul>
         <li><a href="#why-taz">Why the TAZ LOV3?</a></li>
@@ -145,29 +159,12 @@
     </ul>
     </div>
 
-    <br><br>
-    <div class="warning-container">
-
-   <!-- <img src="https://www.freeiconspng.com/uploads/skull-and-crossbones-png-3.png" alt="Skull and Crossbones"/> -->
-     <h2>Warning! This is advanced stuff.</h2>
-
-    <div class="warning-text">
-        TR soloing is dangerous and should only be attempted by advanced climbers with a strong background in roped climbing and self-rescue.
-        <br><br>
-        Unanticipated user error and mechanical failures beyond the scope of this guide are likely and can result in serious injury or death.
-        <br><br>
-        Consult a guide or other authorized instructor before attempting.
-        </div>
-        <br><br>
-        <b>Remember: You are the only person who can keep yourself safe when you top rope solo.</b>
-        
     
-    </div> 
 
     <div id="why-taz" class="mainbody">
     <h3>Why the TAZ LOV3?</h3>
 
-    <p>The TAZ LOV3 is a non-toothed fall arrest device and descender designed for people who work-at-height.  When used for TR soloing, it provides reliable, immediate catches and allows you to lower quickly and easily without the need for managing your own slack, or a complicated transition into rappel mode. This minimizes opportunities for error, and is great for projecting routes. The device is unfortunately quite expensive, but currently one of very few devices that also function as a descender (the other main alternatives being Rock Exotica’s more expensive <a href="https://www.rockexotica.com/products/unicender" target="_blank">Unicender</a>, or the Gri Gri, which requires you to manage your own slack).
+    <p>The TAZ LOV3 is a non-toothed fall arrest device and descender designed for people who work-at-height. When used for TR soloing, it provides reliable, immediate catches and allows you to lower quickly and easily without the need for managing your own slack, or a complicated transition into rappel mode. This minimizes opportunities for error, and is great for projecting routes. The device is unfortunately quite expensive, but currently one of very few devices that also function as a descender (the other main alternatives being Rock Exotica’s more expensive <a href="https://www.rockexotica.com/products/unicender" target="_blank">Unicender</a>, or the Gri Gri, which requires you to manage your own slack).
         </p>
     </div>
 
@@ -185,7 +182,7 @@
         </p>
     </div>
 
-
+<hr>
     <div id="ingredients" class="mainbody">
 
     <h2>What you will need</h2>
@@ -200,8 +197,8 @@
         <li>1 standard carabiner for weighting rope</li>
     </ul>
     </div>
-
-    <div id="overview" class="mainbody">
+<hr>
+    <div id="overview" class="mainbody ">
     <h2>Process Overview</h2>
 <ol>
     <li>Fix your rope to a solid top anchor.</li>
@@ -221,7 +218,7 @@
     <li><a href="#descend">Descend</a>.</li>
 </ol>
     </div>
-
+<hr>
     <div id="weight-rope" class="mainbody">
     <h3>Weight the Rope</h3>
 
@@ -229,35 +226,46 @@
 
     <a href="#overview" class="return">Return to Overview</a>
     </div>
-
+<hr>
     <div id="to-rope" class="mainbody">
-    <h3>Connect the devices to the rope</h3>
+    <h3>Connect the Devices to the Rope</h3>
+    <h4>TAZ LOV3</h4>
     Press the button on the LOV3 to open the device. Insert your rope into device as shown below and close device fully. Connect LOV3 to locking carabiner to lock device closed. Ensure that bungee cord is attached to the carabiner on each side of device, and carabiner is locked.
+    <p class="placeholder">[IMAGE - LOV3 open with rope inserted. Arrows denoting anchor/climber for clarity.]</p>
+    <p class="placeholder">[IMAGE - LOV3 closed with rope inserted. Arrows denoting anchor/climber for clarity.]</p>
+    <h4>Petzl Micro Traxion</h4>
+    Attach a small locking carabiner to each end of an 11cm dogbone. Open the Micro Traxion and insert rope as show below. Close the device and connect to locking carabiner on one end of the dogbone. Ensure that all carabiners are locked before climbing.
 
-    Attach a small locking carabiner to each end of an 11cm dogbone. Open the Micro Traxion and insert rope as show below. Close the device and connect to locking carabiner on one end of the dogbone. Ensure carabiner is locked
+        <img src="https://live.staticflickr.com/65535/53542976799_cd24bdaff5_k.jpg" alt="Micro Traxion on Dogbone" class="center" width="40%">
+    <p class="placeholder">[NOTE - Add safety note about MT]</p>
+    <p class="placeholder">[IMAGE - MT open with rope inserted. Arrows denoting anchor/climber for clarity.]</p>
+    <p class="placeholder">[IMAGE - MT closed with rope inserted. Arrows denoting anchor/climber for clarity.]</p>
 
-
-    Safety note about MT
 
     <a href="#overview" class="return">Return to Overview</a>
     </div>
-
+<hr>
     <div id="to-harness" class="mainbody">
-    <h3>Connect the devices to your harness</h3>
+    <h3>Connect the Devices to Your Harness</h3>
 
     Attach both devices to the belay loop on your harness with the LOV3 positioned above the MT. Ensure carabiners are locked. 
+    <br>
+    <p class="placeholder">[IMAGE - Devices attached to harness in proper orientation]</p><br>
     <a href="#overview" class="return">Return to Overview</a>
     </div>
-    
+<hr>   
     <div id="taught" class="mainbody">
-    <h3>Keep the LOV3 taught</h3>
+    <h3>How to Keep the LOV3 Taught</h3>
     If the LOV3 and MT collide, they may malfunction and fail to arrest your fall. To prevent this, it is important to keep the LOV3 taught above the MT.
 
     Take length of bungee cord and tie a small overhand loop on each end. The cord must be long enough to wear it around the back of your neck when attached to the LOV3’s carabiner, but short enough to keep the LOV3’s carabiner upright and the device taught near your stomach. Slide the loops onto the LOV3’s carabiner, with the LOV3 seated between them.
-
+    <br>
+    <img src="https://live.staticflickr.com/65535/53542976844_4bec9ce8e2_k.jpg" class="center" width="40%">
+    <p class="placeholder">[IMAGE - LOV3 in proper orientation with bungee around climber neck]</p>
+    <br><br>
     <a href="#overview" class="return">Return to Overview</a>
     </div>
-
+<hr>
     <div id="descend" class="mainbody">
     <h3>Descending with the LOV3</h3>
     To descend, ensure that you are in a hanging position with your weight fully supported by the LOV3. Simply disengage the MT, and use the LOV3’s handle to descend.
@@ -266,54 +274,73 @@
 
     <a href="#overview" class="return">Return to Overview</a>
     </div>
-
+<hr>
     <div id="fail-modes" class="mainbody">
     <h2>Failure Modes</h2>
-    There are several documented ways in which these devices can fail to catch your fall. This is by no means an exhaustive list. Always tie at least one catastrophe knot to prevent a ground fall in the event of an unexpected device failure. 
-
-    <h3>Keep your devices separate.</h3>
-    If your devices collide, it can prevent them from functioning normally. The purpose of the bungee cord and the dogbone is to prevent this. Make sure that your devices stay separated at all times. 
-
-    <h3 id="mt-fail">Tab on the MT</h3>
-    [PHOTO]
-    The MT has a small tab on the locking mechanism that can cause it to become locked open while climbing. This disengages the device from progress-capture mode and prevents it from catching you if you fall and your primary device fails. Some people file this nub off to prevent this issue. Whatever you choose to do, be sure to check the MT occasionally to ensure that it is still engaged while climbing. 
-        <img src="https://live.staticflickr.com/65535/53538373826_09a57d4bb0.jpg">
-    <h3>Plastic Cleat on the TAZ LOV3</h3>
-    [PHOTO]
-    The older version of the TAZ LOV3 has a plastic cleat that is involved in initiating the locking mechanism. On rare occasions this tab can get stuck open, preventing the device from stopping a fall as quickly (or at all). Some people file this tab slightly to prevent this. 
+    <div class="warning-container">
+        <div class="warning-text">There are several documented ways in which these devices can fail to catch your fall.<br><br>
+        This is by no means an exhaustive list.<br><br>
+        Always tie at least one catastrophe knot to prevent a ground fall in the event of an unexpected device failure.
+        </div>
+        </div>
+        <p class="placeholder">[NOTE - Reevaluate layout of above warning box]</p>
+    <h3>→ Keep your devices separate.</h3>
+    If your devices collide, it can prevent them from functioning normally. The purpose of the bungee cord necklace and the dogbone attached to the MT is to prevent this. Make sure that your devices stay separated at all times. 
+    <br>
+    See: <a href="#taught">How to Keep the LOV3 Taught</a>
+    <h3 id="mt-fail">→ Tab on the MT</h3>
+    The MT has a small tab on the locking mechanism that can cause it to become locked open while climbing. This disengages the device from progress-capture mode and prevents it from catching you if you fall and your primary device fails. Some people file this tab off to prevent this issue. If you choose not to do this, be sure to check the MT occasionally to ensure that it is still in progress-capture mode while climbing. 
+    <br>    
+    <img src="https://live.staticflickr.com/65535/53538373826_09a57d4bb0.jpg" class="center">
+    <h3>→ Plastic Cleat on the TAZ LOV3</h3>
+    The older version of the TAZ LOV3 has a plastic cleat that is involved in initiating the locking mechanism. On rare occasions this cleat can get stuck, preventing the device from stopping a fall as quickly (or at all). Some people file this cleat slightly to prevent this. 
     <br><br>
-    This issue has been eliminated in the newer LOV3. To test which version you have, push the plastic cleat on your device into the open position and see if you can get it to stick. If you cannot get it to stick, you likely have the newer version, so this will be less of a concern.
-    
-    <div class="row">
-        <div class="column">
-            <img src="https://live.staticflickr.com/65535/53538859065_b0dae3c998_z.jpg" width="50%" alt="TAZ Tab 1"/>
-        </div>
-        <div class="column">
-            <img src="https://live.staticflickr.com/65535/53537558552_2fe85b4f23_z.jpg" width="50%"" alt="TAZ Tab 2"/>
-        </div>
-      </div>
+    This issue has been eliminated in the newer LOV3. To test which version you have, push the plastic cleat upwards (as shown below) and see if you can get it to stick in the open position. If you cannot get it to stick, you likely have the newer version, so this will be less of a concern.
+    <br>
+        <div class="tazimg">
 
-    <h2>Additional Warnings and considerations</h2>
-    <ul class="bullet">
+            <img src="https://live.staticflickr.com/65535/53538859065_b0dae3c998_z.jpg"  alt="TAZ Tab 1" />
+            <img src="https://live.staticflickr.com/65535/53537558552_2fe85b4f23_z.jpg"  alt="TAZ Tab 2" />
+            
+        </div>
+        <p class="placeholder">[NOTE: Replace images with GIF?]</p><br>
+<hr>
+    <h2>Additional Warnings and Considerations</h2>
+    <ul>
     <li>Long hair, loose clothes, slings and other dangling accessories can get sucked into devices and prevent them from catching you. Keep long hair tied back and completely out of the way (even a long ponytail can get caught) and wear a fitted top with no dangling accessories that could get caught in your devices.  
         </li>
-        <br>
     <li>After you leave the ground, and any time you climb past any ledges, it is a good idea to tie a catastrophe knot in your rope. A one-handed slip knot works great for this.
         </li>
-        <br>
     <li>As always, be considerate of other climbers and share the crag. 
         </li>
     </ul>
     
     </div>
-
+<hr>
     <div id="gear" class="mainbody">
     <h2>Recommended Gear</h2>
-    Grivel Clepsydra S K10GS
-    Compact and lightweight. Twin-gate design ensures that carabiner will never come unlocked while climbing.    Isolate the belay loop behind a wire gate, keeping the devices in the proper orientation and preventing crossloading.)
+    
+    Carabiners<br>
+    <p class="placeholder">[IMAGE - Clepsydra]<br></p>
+    Grivel Clepsydra S K10GS<br>
+    Compact and lightweight. Twin-gate design ensures that carabiner will never come unlocked while climbing. Isolates the belay loop behind a wire gate, keeping the devices in the proper orientation and preventing crossloading.
+
+    <p class="placeholder">[NOTE - Add additional gear here. Re-write Clepsydra caption]<br></p>
 
     <a href="#toc" class="return">Return to Top</a>
     </div>
 
+    <br>
+
+    <p class="placeholder">
+        [ To Do: ]
+        <br>-Add all missing images. Find out how to host GIF and add gif to LOV3 failure mode section.
+        <br>-Replace "Return to Top/Overview links with up arrow/image.
+        <br>-Add more structure and design elements that make it feel cleaner, clearer, and easy to focus on individual sections.
+        <br>-Check for reduncies/clutter in code and simplify.
+        <br>-Review all sections for clarity and ensure all needs/values are addressed.
+        <br>-Change image at top / appearance of top.
+    </p>
+    <br><br>
 </body>
 </html>
