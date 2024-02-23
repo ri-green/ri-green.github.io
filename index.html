@@ -8,33 +8,37 @@
 
         body {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: black;
+            color: #3d3d3d;
             line-height: 2em;
             margin-left: 18%;
             margin-right:18%;
             text-align: justify;
-        }
-        
-        p {
-            color: #3d3d3d;
         }
 
         h1 {
             text-align: center;
             font-size: 2.5vw;
             font-weight:lighter;
+            color: black;
         }
 
         h2 {
             text-align: center;
             font-size: 2vw;
             font-weight:lighter;
+            color: black;
         }
 
         h3 {
             text-align: left;
             font-size: 1.5vw;
             font-weight:lighter;
+            color: black;
+        }
+
+        h4 {
+            color: black;
+            text-align: left;
         }
 
         .border {
@@ -54,6 +58,10 @@
         li.indent {
             padding-inline-start: 2em;
             list-style-type: none;
+        }
+
+        .warning-header {
+            color: white;
         }
 
         .warning-container {
@@ -116,6 +124,21 @@
         .indent {
             text-indent: 25px;
         }
+
+        .note-container {
+            background: #ffbf1d;
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .fail-modes-container {
+            background: #cc4343;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
     </style>
 </head>
 
@@ -133,14 +156,16 @@
     </div>
     <div class="warning-container">
    <!-- <img src="https://www.freeiconspng.com/uploads/skull-and-crossbones-png-3.png" alt="Skull and Crossbones"/> -->
-     <h2>Warning! This is advanced stuff.</h2>
+     <h2 class="warning-header">Warning! This is advanced stuff.</h2>
 
     <div id="warning" class="warning-text">
-        TR soloing is dangerous and should only be attempted by advanced climbers with a strong background in roped climbing and self-rescue.
-        <br><br>
-        Unanticipated user error and mechanical failures beyond the scope of this guide are likely and can result in serious injury or death.
-        <br><br>
-        Consult a guide or other authorized instructor before attempting.
+        <ul>
+            <li>TR soloing is dangerous and should only be attempted by advanced climbers with a strong background in roped climbing and self-rescue.
+            </li>
+            <li>Unanticipated user error and mechanical failures beyond the scope of this guide are likely and can result in serious injury or death.
+            </li>
+        <li>Consult a guide or other authorized instructor before attempting.
+        </li>
         </div>
         <br><br>
         <b>Remember: You are the only person who can keep yourself safe when you top rope solo.</b>
@@ -299,23 +324,31 @@
 <hr>
     <div id="descend" class="mainbody">
     <h3>How to Descend with the LOV3</h3>
-    To descend, ensure that you are in a hanging position with your weight fully supported by the LOV3. Simply disengage the MT, and use the LOV3’s handle to descend.
-
-    Note: Some find the handle on the LOV3 difficult to maneuver at first. Err on the side of caution when getting the hang of it, as pulling the handle too far too fast can lead to abrupt, rapid descents. To stop a rapid descent, simply release your hand from the handle.
-
+    <ol>
+        <li>Ensure that you are in a hanging position with your weight fully supported by the LOV3.</li>
+        <li>Disengage the MT, and use the LOV3’s handle to descend.</li>
+        </ol>
+    <div class="note-container">→ Note: Some find the handle on the LOV3 difficult to maneuver at first. Err on the side of caution when getting the hang of it. Pulling the handle too, far too fast can lead to abrupt, rapid descents. 
+        <p><b><i>To stop a rapid descent, simply release your hand from the handle.</i></b></p>
+        </div>
     <a href="#overview" class="return"><img src="https://live.staticflickr.com/65535/53547895280_69726acc6a_t.jpg"></a>
     
     </div>
 <hr>
     <div id="fail-modes" class="mainbody">
     <h2>Failure Modes</h2>
-    <div class="warning-container">
-        <div class="warning-text">There are several documented ways in which these devices can fail to catch your fall.<br><br>
-        This is by no means an exhaustive list.<br><br>
-        Always tie at least one catastrophe knot to prevent a ground fall in the event of an unexpected device failure.
+    <div class="fail-modes-container">
+        <div class="warning-text">
+            <ul>
+                <li>There are several documented ways in which these devices can fail to catch your fall.
+                     </li>
+                <li>This is by no means an exhaustive list.
+                    </li>
+                <li>Always tie at least one catastrophe knot to prevent a ground fall in the event of an unexpected device failure.
+                    </li>
+                </ul>
         </div>
         </div>
-        <p class="placeholder">[NOTE - Reevaluate layout of above warning box]</p>
     <h3>→ Keep your devices separate.</h3>
     If your devices collide, it can prevent them from functioning normally. The purpose of the bungee cord necklace and the dogbone attached to the MT is to prevent this. Make sure that your devices stay separated at all times. 
     <br>
