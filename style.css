@@ -65,8 +65,16 @@
             border-radius: 20px;
         }
 
+        .add-warning-container {
+            background: #df671c;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
         .warning-text {
-            display: inline-block;
+            display: inline-block
             text-align: left;
             line-height: 1.5em;
         }
