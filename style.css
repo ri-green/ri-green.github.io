@@ -1,0 +1,143 @@
+
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #3d3d3d;
+            line-height: 2em;
+            margin-left: 18%;
+            margin-right:18%;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5vw;
+            font-weight:lighter;
+            color: black;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2vw;
+            font-weight:lighter;
+            color: black;
+        }
+
+        h3 {
+            text-align: left;
+            font-size: 1.5vw;
+            font-weight:lighter;
+            color: black;
+        }
+
+        h4 {
+            color: black;
+            text-align: left;
+        }
+
+        .border {
+            border: 2px solid black;
+            background: #ffffff;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        ul {
+            text-align: left;
+            list-style-type: circle;
+            line-height: 3em;
+        }
+
+
+        li.indent {
+            padding-inline-start: 2em;
+            list-style-type: none;
+        }
+
+        .warning-header {
+            color: white;
+        }
+
+        .warning-container {
+            background: #cc4343;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .warning-text {
+            display: inline-block;
+            text-align: left;
+            line-height: 1.5em;
+        }
+      
+        .intro {
+            padding: 20px;
+            text-align: justify;
+        }
+    
+        .return {
+            text-align: right;
+            display: block;
+        }
+
+        .return img{
+            width: 20px;
+        }
+
+        ol {
+            text-align: left;
+            line-height: 3em;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .tazimg {
+            display: flex;
+            }
+
+        .tazimg img {
+            width: 33.3%;
+            padding: 10px;
+        }
+
+        .placeholder {
+            color: hotpink;
+            font-weight: bolder;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        .indent {
+            text-indent: 25px;
+        }
+
+        .note-container {
+            background: #ffbf1d;
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .fail-modes-container {
+            background: #cc4343;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .dotted {
+            border-style: dotted;
+        }
+
+        .emphasis {
+            font-weight: bold;
+            font-style: italic;
+        }
