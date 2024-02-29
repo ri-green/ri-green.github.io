@@ -16,6 +16,7 @@
 -->
 <!-- NAV -->
 <div class="sidebar">
+    <div class="jump-menu">
     <a id="top" href="#top">TOP</a>
     <button class="dropdown-btn">
         <span>Introduction &#9207</span>
@@ -31,8 +32,8 @@
         <span>The Process &#9207</span>
     </button>
         <div class="dropdown-container">
-            <a href="#gear">&#9656 What You Will Need</a>
             <a href="#overview">&#9656 Process Overview</a>
+            <a href="#gear">&#9656 What You Will Need</a>
             <a href="#weight-rope">&#9656 Weight the Rope</a>
             <a href="#to-rope">&#9656 Connect Devices to Rope</a>
             <a href="#to-harness">&#9656 Connect Devices to Harness</a>
@@ -51,6 +52,7 @@
     <a href="#add-warnings">Additional Warnings</a>
     <a href="#rec-gear">Recommended Gear</a>
    <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
+        </div>
 </div>
 
 <!-- CONTENT -->
@@ -123,7 +125,24 @@
         <p>Although many people TR solo with a single device and live to tell the tale, the reality is, without a back-up, a single error or device malfunction can lead to serious injury, or even death. The slight inconvenience of a back-up device is a small price to pay for something that may very likely save your life one day. 
             </p>
     </div>
-<hr>
+
+    <div id="overview" class="mainbody border">
+        <h2>Process Overview</h2>
+            <ol>
+                <li>Fix your rope to a solid top anchor.</li>
+                <li>Rappel on a single rope, placing directional gear as necessary.</li>
+                <li><a href="#weight-rope">Weight the rope.</a></li>
+                <li>Connect both devices <a href="#to-rope">to your rope</a> and <a href="#to-harness">to your belay loop</a>.</li>
+                <li>Loop the bungee cord around the back of your neck to <a href="#taught">keep the LOV3 taught.</a></li>
+                <li><a href="#mt-fail">Ensure that the MT is in engaged in progress capture mode before ascending.</a></li>
+                <li>Climb on!</li>
+                <li><a href="#descend">Descend</a>.</li>
+            </ol>
+            <div class="overview-note">→ Note: I have not included explanations for how to perform fundamental skills like anchor building and rappeling. 
+                Climbers not comfortable with these skills should prioritize building their fundamental climbing and self-rescue skill set before attempting to TR solo.
+                </div>
+    </div>
+
     <div id="gear" class="mainbody gear-container">
         <h2>What You Will Need</h2>
             <ul>
@@ -137,21 +156,6 @@
             </ul>
            <p class="indent">→ <a href="#gear">See recommended gear</a></p>
     </div>
-
-    <div id="overview" class="mainbody border">
-        <h2>The Process</h2>
-            <ol>
-                <li>Fix your rope to a solid top anchor.</li>
-                <li>Rappel on a single rope, placing directional gear as necessary.</li>
-                <li><a href="#weight-rope">Weight the rope.</a></li>
-                <li>Connect both devices <a href="#to-rope">to your rope</a> and <a href="#to-harness">to your belay loop</a>.</li>
-                <li>Loop the bungee cord around the back of your neck to <a href="#taught">keep the LOV3 taught.</a></li>
-                <li><a href="#mt-fail">Ensure that the MT is in engaged in progress capture mode before ascending.</a></li>
-                <li>Climb on!</li>
-                <li><a href="#descend">Descend</a>.</li>
-            </ol>
-    </div>
-
     <div id="weight-rope" class="mainbody">
         <h3>Weight the Rope</h3>
             Adding some weight to the end of your rope keeps the rope taught and allows it to feed smoothly through your devices. 
@@ -163,6 +167,7 @@
                     <li>Clip on only as much weight as you find allows your rope to feed smoothly. 
                         <br><i>A full 32oz Nalgene water bottle, a pair of shoes, or a canvas bag filled with some gear from your pack should do the trick.</i></li>
                 </ol>
+                <img src="images/placeholder.png">
          <!-- [IMAGE - Weighted rope] -->
     </div>
 
@@ -186,6 +191,7 @@
                         </div>
                         </div>
         </div>
+        <img src="images/placeholder.png">
    <!-- [IMAGE - LOV3 open with rope inserted. Arrows denoting anchor/climber for clarity.]
     [IMAGE - LOV3 closed with rope inserted. Arrows denoting anchor/climber for clarity.] -->
     
@@ -210,7 +216,7 @@
                     </div>
             <br>
             <img src="images/mtsling.png" alt="Micro Traxion on Dogbone" class="center" width="40%">
-
+                        
      <!--   <p class="placeholder">[IMAGE - MT open with rope inserted. Arrows denoting anchor/climber for clarity.]</p>
         <p class="placeholder">[IMAGE - MT closed with rope inserted. Arrows denoting anchor/climber for clarity.]</p> -->
         </div>
@@ -228,6 +234,7 @@
             <li>Ensure that all carabiners are locked before climbing.</li>
         </ol>
     <br>
+    <img src="images/placeholder.png">
    <!-- <p class="placeholder">[IMAGE - Devices attached to harness in proper orientation]</p><br> -->
     </div>
 <hr>   
@@ -271,17 +278,18 @@
                     <p><b><i>To stop a rapid descent, simply release your hand from the handle.</i></b></p>
                     </div>
                 </div>
-    
+                <img src="images/placeholder.png">
    <!-- <p class="placeholder">[GIF - lifting handle to descend?]</p> -->
     </div>
 
 <hr>
 
     <div id="fail-modes" class="mainbody">
-        <h2 class="warning-header">&#9888 Failure Modes &#9888</h2>
-            <div class="fail-modes-container">
+        <h2>&#9888 Failure Modes &#9888</h2>
+            <div id="fail-container" class="warning-container">
                 <div class="warning-text">
                     <ul>
+                        <span class="warning-header">Warning</span>
                         <li>&#9656 There are several documented ways in which these devices can fail to catch your fall.
                         </li>
                         <li>&#9656 This is by no means an exhaustive list.
