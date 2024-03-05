@@ -5,7 +5,7 @@
 .sidebar {
 margin: none;
 padding-top: 0px;
-width: 250px;
+width: 300px;
 background-color: #ffffff;
 position: fixed;
 height: 100%;
@@ -28,6 +28,11 @@ width:100%;
 text-align: left;
 cursor: pointer;
 outline: none;
+font-family: "Work Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: normal;
+font-style: normal;
+letter-spacing: -.5px;
 }
 
 .dropdown-container a {
@@ -46,13 +51,13 @@ color: rgb(34, 107, 171) !important;
 }
 
 .big-mama{
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 div.content {
-margin: 0 auto;
+margin: 0 300px 0 auto;
 text-align: center;
-max-width: 800px;
+max-width: 750px;
 }
 
 .dropdown-container {
@@ -78,7 +83,6 @@ max-width: 800px;
  
 
        body {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             color: #3d3d3d;
             line-height: 2em;
             text-align: justify;
@@ -117,28 +121,33 @@ max-width: 800px;
         }
 
         h1 {
-            font-size: 1.725rem;
-            text-align: center;   
+            font-size: 1.625rem;
+            text-align: center;
+            padding: 10px;   
+            
         }
 
         h2 {
-            font-size: 1.6rem; 
+            font-size: 1.5rem; 
             text-align: center;
+            margin-top: .3rem !important;
+            margin-bottom: .2rem !important;
         }
 
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             text-align: left;
         }
 
         h4 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             text-align: left;
         }
 
         h5 {
             font-size: 1.1rem;
             text-align: left;
+            margin-bottom: .2rem !important;
         }
 
         ul {
@@ -160,6 +169,7 @@ max-width: 800px;
             text-align: left;
             line-height: 2em;
         }
+        
         ol > li{
             margin-top: 1rem;
         }
@@ -191,9 +201,18 @@ max-width: 800px;
         }
 
         .emphasis {
-            font-weight: 600;
+            font-weight: 500;
             font-style: italic;
         }
+
+        .left {
+            text-align: left !important;
+        }
+
+        .red {
+            color: #b42929;
+        }
+
         .rounded {
             border-radius: 10px;
         }
@@ -214,10 +233,11 @@ max-width: 800px;
         .warning-header {
             color: white;
             text-align: center;
+            font-weight: 300;
         }
 
         .warning-container {
-            background: #cc4343;
+            background: #b42929;
             color: white;
             padding: 40px;
             text-align: center;
@@ -289,23 +309,26 @@ max-width: 800px;
             margin-bottom: 30px;
         }
 
-        #warning, #overview, #taz-fail, #mt-fail {
+        #overview, #taz-fail, #mt-fail {
             margin-top: 50px;
             margin-bottom: 50px;
         }
 
+        #overview {
+            padding: 20px;
+        }
+
         #fail-warning-container {
-            padding: 10px;
+            padding: 20px;
             margin-bottom: 50px;
         }
 
         #intro {
-            padding: 20px;
-            margin-top: 20px;
+            margin: 20px 0;
         }
         
         #warning {
-            margin-bottom: 100px;
+            margin-bottom: 50px;
         }
 
         #gear {
@@ -325,11 +348,12 @@ max-width: 800px;
         }
 
         #descend {
-            margin: 60px 0;
+            margin-top: 30px;
+            margin-bottom: 60px;
         }
 
         #fail-modes-container {
-            margin: 50px 0;
+            margin: 30px 0;
         }
 
         .warning-text-smargin {
@@ -341,15 +365,17 @@ max-width: 800px;
         }
 
         #add-warnings {
-            margin: 100px 0;
+            margin: 50px 0;
         }
         
         #taz-warning {
             margin-top: 50px;
+            padding-bottom: 25px !important;
         }
 
         #trax-warning {
             margin: 50px 0;
+            padding-bottom: 25px !important;
         }
 
         #to-harness {
@@ -365,6 +391,11 @@ max-width: 800px;
             margin-bottom: 150px;
             padding: 20px;
         }
+
+        #taught-warning {
+            padding-bottom: 25px !important;
+        }
+       
 
         @media screen and (max-width: 767px) {
             h1, h2, h3, h4 {
