@@ -295,7 +295,7 @@ max-width: 750px;
     
         .overview-note {
             margin: 30px 30px;
-            text-align: justify; 
+            text-align: left; 
         }
 
         .return {
@@ -426,6 +426,7 @@ max-width: 750px;
         
             div.content {
                 margin: 0;
+                text-align: justify;
             }
             
             .big-mama {
