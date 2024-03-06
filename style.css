@@ -71,19 +71,7 @@ max-width: 750px;
   }
   
  
-  @media screen and (max-width: 767px) {
-    .sidebar {
-      display: none;
-    }
-
-    div.content {
-        margin: 0;
-    }
-    
-    .big-mama {
-        margin: 0 ;
-    }
-  }
+  
  
 
        body {
@@ -432,17 +420,23 @@ max-width: 750px;
        
 
         @media screen and (max-width: 767px) {
-            h1, h2, h3, h4 {
-                font-size: 100%;
+            .sidebar {
+              display: none;
             }
+        
             div.content {
-                margin-left: 0;
-                margin-right: 0;
-    
-              }
+                margin: 0;
+            }
+            
+            .big-mama {
+                margin: 0 5%;
+            }
+            h1 {
+                font-size: 130%;
+            }
 
-              #top {
-                display: none;
-              }
-
+            h2, h3, h4 {
+                font-size: 110%;
+            }
+              
           }
