@@ -52,6 +52,26 @@ p {
     padding: 20px;
     text-align: left;
     font-weight: 400; 
-
 }
 
+@media screen and (max-width: 767px) {
+    .sidebar {
+      display: none;
+      width: 0px;
+    }
+
+   .container {
+    margin-left: 0px;
+    text-align: center;
+    padding: 25px;
+    }
+
+    h1 {
+        font-size: 130%;
+    }
+
+    h2, h3, h4 {
+        font-size: 110%;
+    }
+      
+  }
