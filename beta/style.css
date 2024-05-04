@@ -16,6 +16,10 @@
     padding: 10px 300px 20px 5px;
 }
 
+.header {
+    margin-bottom: 20px;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -28,16 +32,19 @@ ul {
 
 li {
     text-align: left;
-    font-weight: 200px;
+    font-weight: 300;
+    line-height: 2em;
 }
 
 h1, h2, h3, h4 {
 
     text-align: left;
     font-weight: 500;
+    margin: 15px 0px;
 }
 
 h1 {
+    
     padding-left: 5px;
 }
 
@@ -50,7 +57,7 @@ h3 {
 }
 
 p {
-    padding: 20px;
+    padding: 10px 20px;
     text-align: left;
     font-weight: 400; 
     line-height: 1.7em;
@@ -58,6 +65,14 @@ p {
 
 .border {
     border: solid 1px black; 
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.map {
+    margin: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -72,12 +87,17 @@ p {
     padding: 25px;
     }
 
-    h1 {
-        font-size: 130%;
+    .header {
+        width: 100%;
     }
 
-    h2, h3, h4 {
-        font-size: 110%;
+    .map {
+        width: 100%;
+    }
+
+
+    h1, h2, h3, h4 {
+        font-size: 100%;
     }
       
   }
