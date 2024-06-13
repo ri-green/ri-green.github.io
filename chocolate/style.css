@@ -8,12 +8,20 @@ body {
     line-height: 2em;
     font-size: 1.2em;
     font-weight: 200;
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 a {
-    font-weight: 400;
-    font-size: 1.1em;
+    font-weight: 600;
     text-decoration: none;
+}
+
+li {
+    padding: 7px 0;
+}
+#where li a, #makers li a {
+    font-size: 1.2em;
 }
 
 p {
@@ -27,7 +35,10 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
 }
 
 .center {
@@ -37,41 +48,72 @@ h2 {
 }
 
 .indent {
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+.list {
+    text-align: center;
+}
+
+.nobullet {
+    list-style-type: none;
 }
 
 .container {
     margin: 0 27%;
+    height: 100%;
+}
+
+.left-container {
+    width: 27%;
+    height: 100%;
+    background-color:aqua;
+}
+
+.right-container {
+    width: 27%;
+    height: 100%;
+    margin-left: 73%;
 }
 
 .bright {
-    background-color:rgb(251, 218, 108);
+    background-color:rgba(251, 218, 108, 0.213);
     padding: 10px 20px;
     border-radius: 10px;
-    display: inline-block;
 }
 
 .dark {
-    background-color:rgb(104, 57, 119);
+    background-color:rgba(104, 57, 119, 0.217);
     padding: 10px 20px;
     border-radius: 10px;
-    display: inline-block;
 }
 
 .spicy {
-
+    background-color:rgba(196, 37, 37, 0.227);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
-.choco {
-
+.fudge {
+    background-color:rgba(119, 63, 57, 0.217);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .def {
-    background-color:rgba(156, 95, 76, 0.483) ;
+    background-color:rgba(156, 95, 76, 0.22) ;
     padding: 5px 20px;
     border-radius: 10px;
     margin-bottom: 15px;
     font-weight: 400;
+}
+
+.origin {
+    margin-top: 50px;
+}
+
+.originpad {
+    padding-right: 70px;
 }
 
 @media screen and (max-width: 767px) {
