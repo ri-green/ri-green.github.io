@@ -56,6 +56,7 @@ h2 {
     
 }
 
+
 .center {
     display: block;
     margin-left: auto;
@@ -131,6 +132,10 @@ h2 {
     padding-right: 70px;
 }
 
+#mobile-header {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
  
    .container {
@@ -140,6 +145,15 @@ h2 {
   h1 {
     text-indent: 0em;
   }
-      
+  
+  #header {
+    display: none;
+    }
+    
+  #mobile-header {
+    display: block;
+  }
+
+  
   }
 
