@@ -46,7 +46,7 @@ p {
 h1 {
     margin-bottom: 30px;
     font-size: 1.9em;
-    margin-left: -20px;
+    
 }
 
 h2 {
@@ -149,11 +149,10 @@ h2 {
   #header {
     display: none;
     }
-    
+
   #mobile-header {
     display: block;
   }
 
-  
   }
 
