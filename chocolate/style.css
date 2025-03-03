@@ -128,7 +128,7 @@ h2 {
 
 }
 
-.origin:hover {
+img.origin:hover {
     transform: scale(1.1);
 }
 
